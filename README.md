@@ -5,9 +5,9 @@ Customer behavior analysis using a controlled simulation environment
 This project explores customer behavior and inventory decisions in a small
 boutique retail environment using a simulated bookshop.
 
-The goal is to practice end-to-end data analysis workflows — from data
+The goal is to practice end-to-end data analysis workflows - from data
 collection and cleaning to exploratory analysis, experimentation, and
-business recommendations — in a controlled setting where variables can be
+business recommendations - in a controlled setting where variables can be
 intentionally modified and observed.
 
 ## Disclosure

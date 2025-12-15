@@ -1,4 +1,4 @@
-# Data Dictionary
+# Data Dictionary v2
 
 This document describes the structure, variables, and identifiers used
 across all datasets in the project.
@@ -53,18 +53,6 @@ Each row represents the stock level of a book at a specific snapshot time.
 
 ---
 
-##```book_catalog.csv```
-
-
-| Column        | Type    | Description         | Allowed Values |
-| ------------- | ------- | ------------------- | -------------- |
-| book_id       | string  | Book identifier     | B00            |
-| book_title    | string  | Book title          | Free text      |
-| genre         | string  | Book genre          | Fantasy, Poetry|
-
-
----
-
 ## Identifier Conventions
 
 - customer_id: C + zero-padded number (C0001)
@@ -77,3 +65,4 @@ Each row represents the stock level of a book at a specific snapshot time.
 ### End of Document
 
 ---
+

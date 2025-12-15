@@ -51,28 +51,28 @@ A single customer visit may result in:
 
 ### 4.1 Customer Table (`customers.csv`)
 
-|Variable|Description|
-|---|---|
-|customer_id|Unique identifier assigned by observer|
-|session_id|Identifier for observation session|
-|arrival_minute|Minute of session when customer enters|
-|expressed_preference|Observed genre or interest|
-|engagement_level|Low / Medium / High|
-|purchased|0 = no purchase, 1 = purchase|
-|notes|Optional qualitative notes|
+| Variable             | Description                            |
+| -------------------- | -------------------------------------- |
+| customer_id          | Unique identifier assigned by observer |
+| session_id           | Identifier for observation session     |
+| arrival_minute       | Minute of session when customer enters |
+| expressed_preference | Observed genre or interest             |
+| engagement_level     | Low / Medium / High                    |
+| purchased            | 0 = no purchase, 1 = purchase          |
+| notes                | Optional qualitative notes             |
 
 ---
 
 ### 4.2 Transaction Table (`transactions.csv`)
 
-|Variable|Description|
-|---|---|
-|transaction_id|Unique transaction identifier|
-|customer_id|Links to customer table|
-|book_id|Identifier of purchased book|
-|genre|Genre of purchased book|
-|price|Sale price|
-|timestamp_minute|Minute of session when purchase occurs|
+| Variable         | Description                            |
+| ---------------- | -------------------------------------- |
+| transaction_id   | Unique transaction identifier          |
+| customer_id      | Links to customer table                |
+| book_id          | Identifier of purchased book           |
+| genre            | Genre of purchased book                |
+| price            | Sale price                             |
+| timestamp_minute | Minute of session when purchase occurs |
 
 ---
 
